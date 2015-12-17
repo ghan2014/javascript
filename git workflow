@@ -1,0 +1,27 @@
+git workflow
+create a github account
+
+gmail/github2015(ghan2014)
+
+
+1)creat a new repo on github
+https://github.com/ghan2014/boardgame.git
+https://github.com/ghan2014/javascript.git
+
+11)local folder -> github
+git init
+git add .
+git commit -a -m "commit message goes here"
+git remote add origin https://github.com/ghan2014/javascript.git
+git push -u origin master
+
+12)colon remote -> local
+git clone git@github.com/albatrocity/gratuitator.git
+
+2)create a new repository on the command line(local)
+echo "# boardgame" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ghan2014/javascript.git
+git push -u origin master
