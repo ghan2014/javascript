@@ -23,5 +23,3 @@ git clone git@github.com/albatrocity/gratuitator.git
 
 3)edit local and check into centry repo
 git pull --rebase origin master
-
-UDD application: 8003005616
