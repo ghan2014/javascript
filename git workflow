@@ -4,24 +4,24 @@ create a github account
 gmail/github2015(ghan2014)
 
 
-1)creat a new repo on github
+1)creat a new repo in github
 https://github.com/ghan2014/boardgame.git
 https://github.com/ghan2014/javascript.git
 
-11)local folder -> github
+11)local folder -> github up
+echo "# boardgame" >> README.md
 git init
-git add .
+git add . (make sure there are files to commit)
 git commit -a -m "commit message goes here"
 git remote add origin https://github.com/ghan2014/javascript.git
 git push -u origin master
 
-12)colon remote -> local
+12)colon remote -> local down
 git clone git@github.com/albatrocity/gratuitator.git
 
-2)create a new repository on the command line(local)
-echo "# boardgame" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/ghan2014/javascript.git
-git push -u origin master
+2)import svn/another git to repo
+
+3)edit local and check into centry repo
+git pull --rebase origin master
+
+UDD application: 8003005616
